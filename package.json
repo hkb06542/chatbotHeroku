@@ -1,0 +1,17 @@
+{
+  "name": "sfdclogdissector",
+  "version": "1.0.0",
+  "description": "This app is used for log parsing",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "author": "Hemant Barapatre",
+  "license": "ISC",
+  "dependencies": {
+    "botkit": "^0.6.13",
+    "data-file-parser": "0.0.2",
+    "line-reader": "^0.4.0"
+  }
+}
