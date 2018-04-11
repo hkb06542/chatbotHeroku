@@ -1,5 +1,5 @@
 //Developer @ Hemant Barapatre
-var Botkit = require('Botkit');
+var Botkit = require('botkit');
 
 var controller = Botkit.sparkbot({
     debug: true,
