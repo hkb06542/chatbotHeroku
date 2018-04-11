@@ -4,7 +4,7 @@ var Botkit = require('Botkit');
 var controller = Botkit.sparkbot({
     debug: true,
     log: true,
-    public_address: 'localhost:8080',
+    public_address: 'https://evening-lake-93977.herokuapp.com',
     ciscospark_access_token: 'ZmIyNjk0YjEtNzk2Yy00MzI5LTkxYzYtNjU4MGE1ZWZkOGQ1NmJiMWExZjMtNzBl',
     secret: 'wowwowclear'
 });
