@@ -13,7 +13,7 @@ var controller = Botkit.sparkbot({
 var bot = controller.spawn({
 });
 
-var webserver = controller.setupWebserver(process.env.PORT || 3000, function(err, webserver) {
+var webserver = controller.setupWebserver(process.env.PORT || 3001, function(err, webserver) {
     controller.createWebhookEndpoints(webserver, bot, function() {
         console.log("SPARK: Webhooks set up!");
     });
