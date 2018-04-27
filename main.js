@@ -1,12 +1,14 @@
 //Developer @ Hemant Barapatre
 var Botkit = require('botkit');
+var CISCO_SPARK_ACC_TOKEN = process.env.CISCO_SPARK_ACC_TOKEN;
+var CISCO_SPARK_USER_SECRET = process.env.CISCO_SPARK_ACC_SECRET;
 
 var controller = Botkit.sparkbot({
     debug: true,
     log: true,
     public_address: 'https://evening-lake-93977.herokuapp.com',
-    ciscospark_access_token: 'ZmIyNjk0YjEtNzk2Yy00MzI5LTkxYzYtNjU4MGE1ZWZkOGQ1NmJiMWExZjMtNzBl',
-    secret: 'wowwowclear'
+    ciscospark_access_token: CISCO_SPARK_ACC_TOKEN,
+    secret: CISCO_SPARK_USER_SECRET
 });
 
 
